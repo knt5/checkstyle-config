@@ -144,6 +144,7 @@
     <module name="JavadocTagContinuationIndentation"/>
     <module name="SummaryJavadoc">
       <property name="forbiddenSummaryFragments" value="^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )"/>
+      <property name="period" value=""/>
     </module>
     <module name="JavadocParagraph"/>
     <module name="AtclauseOrder">
@@ -170,9 +171,6 @@
       <property name="exceptionVariableName" value="expected"/>
     </module>
     <module name="CommentsIndentation"/>
-    <module name="JavadocStyle">
-      <property name="checkFirstSentence" value="false"/>
-    </module>
   </module>
   <module name="FileTabCharacter">
     <property name="severity" value="ignore"/>

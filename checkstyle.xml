@@ -61,7 +61,7 @@
       <property name="tokens" value="DOT"/>
     </module>
     <module name="SeparatorWrap">
-      <property name="option" value="EOL"/>
+      <property name="option" value="eol"/>
       <property name="tokens" value="COMMA"/>
     </module>
     <module name="PackageName">
